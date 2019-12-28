@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Trail
+comment0.text=\n\ Trail\ class\ stores\ array\ of\ all\ the\ nature\ features\ on\ the\ trail.\n\n\ @author\ (Farhad\ Ullah\ Rezwan)\n\ @version\ (18.04.2019)\n
+comment1.params=
+comment1.target=Trail()
+comment2.params=newFeatures
+comment2.target=Trail(NatureFeature)
+comment3.params=
+comment3.target=void\ inputFeatures()
+comment3.text=\n\ sets\ the\ features\ ie.\ creek,\ bridge,\ fallen\ tree,\ and\ landslide\ and\ corresponding\ space\ penalties;\n\ sets\ positions\ of\ these\ features\ innitially,\ however\ these\ positions\ will\ be\ changed\ and\ \n\ randomly\ assigned\ in\ the\ Game\ class.\n
+comment4.params=
+comment4.target=NatureFeature[]\ getFeatures()
+comment4.text=\n\ returns\ whole\ collection\ of\ features.\n
+comment5.params=index
+comment5.target=NatureFeature\ getFeatures(int)
+comment5.text=\n\ returns\ a\ particular\ feature\ taking\ the\ index\ of\ an\ array.\n
+comment6.params=newFeatures
+comment6.target=void\ setFeatures(NatureFeature[])
+comment6.text=\n\ saves\ an\ object\ of\ nature\ features\ in\ array.\n
+comment7.params=index\ featurePosition\ featureType\ spacePenalty
+comment7.target=void\ setFeatures(int,\ int,\ java.lang.String,\ int)
+comment7.text=\n\ sets\ a\ particular\ feature\ at\ a\ time\n
+numComments=8

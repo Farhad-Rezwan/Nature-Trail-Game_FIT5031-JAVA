@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\n\ This\ Dice\ class\ generates\ random\ numbers\ for\ a\ dice,\ as\ well\ as\ generates\ \n\ random\ number\ from\ 1\ to\ maximum\ value.\n\n\ @author\ (Farhad\ Ullah\ Rezwan)\n\ @version\ (18.04.2019)\n
+comment1.params=
+comment1.target=Dice()
+comment1.text=\n\ The\ default\ constructor\ of\ dice\ class,\ creates\ a\ object\ of\ Dice\ class\ with\n\ maximum\ value\ of\ 4\ and\ minimum\ value\ of\ 1.\n
+comment2.params=newMaximumValue\ newMinimumValue
+comment2.target=Dice(int,\ int)
+comment2.text=\n\ The\ non-default\ constructor\ of\ dice\ class,\ creates\ a\ object\ of\ Dice\ class\ with\n\ when\ two\ integar\ values\ are\ provided.\n
+comment3.params=
+comment3.target=int\ getMaximumValue()
+comment3.text=\n\ returns\ maximum\ value\ of\ a\ Dice\ object\n
+comment4.params=
+comment4.target=int\ getMinimumValue()
+comment4.text=\n\ this\ method\ returns\ minimum\ value\ of\ a\ Dice\ object\n
+comment5.params=
+comment5.target=int\ randomDiceNumber()
+comment5.text=\n\ generates\ and\ returns\ random\ dice\ number.\n
+comment6.params=newMaximumValue
+comment6.target=void\ setMaximumValue(int)
+comment6.text=\n\ stores\ a\ maximum\ value\ of\ a\ dice\ object\n
+comment7.params=newMinimumValue
+comment7.target=void\ setMinimumVlaue(int)
+comment7.text=\n\ stores\ a\ minimum\ value\ of\ a\ dice\ object\n
+numComments=8
